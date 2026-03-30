@@ -1,0 +1,4 @@
+Beverage: Espresso, sugar, sugar, $0.95000005
+Beverage: Dark Roast, whip, sugar, sugar, $1.5
+Beverage: Dark Roast, cream, sugar, $1.35
+Beverage: Decaf, milk, sugar, sugar, $0.90000004
