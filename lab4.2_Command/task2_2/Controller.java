@@ -2,7 +2,6 @@ public class Controller {
     private Command onCommand;
     private Command offCommand;
 
-    // Ініціалізуємо пульт командами
     public void setCommands(Command onCommand, Command offCommand) {
         this.onCommand = onCommand;
         this.offCommand = offCommand;

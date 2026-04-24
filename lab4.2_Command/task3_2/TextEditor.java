@@ -22,12 +22,10 @@ public class TextEditor {
         saveShortcut = new Shortcut();
         printShortcut = new Shortcut();
 
-        // Initialize commands
         Command saveCommand = new SaveCommand(this);
         Command printCommand = new PrintCommand(this);
         Command showInfoCommand = new ShowInfoCommand(this);
 
-        // Bind commands to UI elements
         saveButton.setCommand(saveCommand);
         saveMenuItem.setCommand(saveCommand);
         saveShortcut.setCommand(saveCommand);
